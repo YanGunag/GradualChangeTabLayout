@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?><!--滑动渐变tabView的资源-->
+<resources>
+    <integer-array name="tab_icon_resource">
+        <item>@drawable/ic_common_message</item>
+        <item>@drawable/ic_common_category</item>
+        <item>@drawable/ic_common_all</item>
+        <item>@drawable/ic_common_personal_center</item>
+    </integer-array>
+
+    <string name="tab_message">Tab1</string>
+    <string name="tab_list">Tab2</string>
+    <string name="tab_all">Tab3</string>
+    <string name="tab_personal">Tab4</string>
+
+    <integer-array name="tab_text_resource">
+        <item>@string/tab_message</item>
+        <item>@string/tab_list</item>
+        <item>@string/tab_all</item>
+        <item>@string/tab_personal</item>
+    </integer-array>
+
+    <integer-array name="tab_colors">
+        <item>@color/cadetBlue</item>
+        <item>@color/dodeBlue</item>
+        <item>@color/cadetBlue</item>
+        <item>@color/orange</item>
+    </integer-array>
+
+</resources>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GradualChangeTabItem">
+
+        <attr name="tab_icon" />
+        <attr name="tab_color" />
+        <attr name="tab_text" />
+        <attr name="tab_text_size" />
+    </declare-styleable>
+
+    <declare-styleable name="GradualChangeTabLayout">
+
+        <!--整体按钮滑动渐变色-->
+        <attr name="tab_color" format="color" />
+        <!--单个按钮滑动渐变色（单独设置每个按钮的渐变色）-->
+        <attr name="tab_colors" format="reference" />
+        <!--按钮的icon-->
+        <attr name="tab_icons" format="reference" />
+        <!--按钮的描述-->
+        <attr name="tab_texts" format="reference" />
+        <!--按钮的padding值-->
+        <attr name="tab_item_padding" format="dimension" />
+        <!--按钮中文字的大小-->
+        <attr name="tab_item_text_size" />
+        <!--按钮中文字和icon的间隔距离-->
+        <attr name="tab_item_icon_text_span" format="dimension" />
+
+    </declare-styleable>
+</resources>
